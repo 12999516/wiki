@@ -14,16 +14,30 @@ h3{
 h4{
     color: #FF7A00;
 }
-figure {
-    border-style: solid;
-    border-color: #00000000;
+a:link
+{
+    color: blue;
+}
+a:visited{
+    color: yellow;
 }
 p{
     color: #01CEFF;
 }
-pre{
-    color: #01CEFF;
-}
 ul{
     color: #01CEFF;
+    list-style-type: circle;
+}
+h3{
+    text-transform: capitalize;
+}
+table{
+    width: 100%;
+}
+th{
+    text-transform: capitalize;
+    float: center;
+}
+td{
+    text-transform: capitalize;
 }
